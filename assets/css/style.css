@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:brown;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h2 , .paragraph{
+    color: white;
+}
+.paragraph{
+   /* width: 250px;*/
+    margin: 10px 0;
+}
+#img1 , #img2 , #img3  , #img6{
+    width: 150px;
+    /*height: 50px;*/
+}
+
+#img5{
+    width: 110px;
+}
+#img4{
+    width: 170px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.container2{
+    border: 1px solid black;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+}
+#title, #desc {
+    color: rgb(0, 0, 0);
+}
+.textcenter{
+    text-align: center;
+}
+#icon-moon {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.accordion-header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-answer {
+    display: none;
+    padding: 10px;
+    background-color:brown;
+}
+
+.accordion-header.active {
+    background-color: #eaeaea;
+}
+
+.accordion-header.active .icon {
+    transform: rotate(180deg);
+}
+
+.icon {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.container6 {
+   text-align: center;
+    background-color: rgb(17, 12, 59);
+    color: white;
+    width: 400px;
+   padding: 10px;
+   margin: 10px auto;
+  }
+  
+ .section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+.star-container {
+    text-align: center;
+    background-color:  rgb(233, 231, 231);
+    padding: 30px;
+    width: 100%;
+    color: brown;
+  }
+  .star {
+    color: grey;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .stars{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+   
+  }
+  .star.active {
+    color: #ede861;
+  }
+  
